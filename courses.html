@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>courses</title>
+    <link rel=stylesheet href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+    <center>
+        <ul class="head">
+            <li>
+                <a class="headline" href="index.html">home</a>
+            </li>
+            <li>
+                <a class="headline" href="courses.html">courses</a>
+            </li>
+            <li>
+                <a class="headline" href="contact.html">contact</a>
+            </li>
+        </ul>
+
+        <div class="head2">
+            <h1 class="courses"> COURSES</h1>
+        </div>
+        <br>
+        <br>
+    <div class="bigcourses">
+     <div class="course1">
+    <image  src="res/courses1.png"></image>
+    <div class="empty">
+            <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+    </div>
+    </div>
+
+    <div class="course1">
+     <image class="imgcourses" src="res/courses2.png"></image>
+     <div class="empty">
+            <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+    </div>
+    </div>
+
+    <div class="course1">
+        <image src="res/courses3.png"></image>
+        <div class="empty">
+                <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+        </div>
+     </div>
+
+    <div class="course1">
+         <image src="res/courses4.png"></image>
+         <div class="empty">
+                <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+        </div>
+    </div>
+
+    <div class="course1">
+         <image src="res/courses5.png" ></image>
+         <div class="empty">
+                <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+        </div>
+    </div>
+
+   <div class="course1">
+         <image src="res/courses6.png"></image>
+         <div class="empty">
+                <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+         </div>
+     </div>
+
+     <div class="course1">
+        <image src="res/courses7.png"></image>
+        <div class="empty">
+                <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+        </div>
+     </div>
+
+     <div class="course1">
+        <image src="res/courses8.png"></image>
+        <div class="empty">
+                <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+        </div>
+    
+    </div>
+
+    <div class="course1">
+    <image src="res/courses9.png"></image>
+         <div class="empty">
+                <button class="btnCourses1"><p><a href="#ex1" rel="modal:open">View more</a></p></button>
+        </div>
+    
+     </div>
+                 
+           </div>
+           <div id="ex1" class="modal">
+                <p>This is a GoMyCode Track. </p>
+                <p>Each track has its own goal. </p>
+                <p>By adopting this track, you chose your own goal.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div> 
+        <br>
+        <h2 class="label"><b>Feedback</b></h2>
+        <button onclick="makeBold()"class="bold" style="" >B </button>
+        <button onclick="makeItalic()"class="Italic"  style="font-style:normal" >I</button>
+
+        <button onclick="makeUnderline()" class="underline" style="text-decoration: none">underline</button>
+
+        <button> <select id="size" onchange="changeSize(/*event.target.value*/)">
+                <option value="20px">20xp</option>
+                <option value="30px">30xp</option>
+                <option value="40px">40xp</option>
+            </select></button>
+        <button>
+            <select id="font" onchange="changeFont()">
+                <option value="Arial">Arial</option>
+                <option value="Vernada">Vernada </option>
+                <option value="Geneva">Geneva</option>
+            </select>
+        </button>
+        <form>
+            <textarea id="textarea"  style="text-decoration:none; font-weight:normal; font-style:none;" >
+
+        </textarea>
+        </form>
+    </center>
+
+</body>
+<script src="js\main.js"> </script>
